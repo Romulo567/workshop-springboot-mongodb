@@ -39,12 +39,12 @@ public class Instantiation implements CommandLineRunner{
 		
 		userRepository.saveAll(Arrays.asList(maria, romulo, vinicius)); 
 		
-		Post post1 = new Post(null, sdf.parse("11/08/2025"), "Partiu viagem", "Vou viajar para São Paulo. Abraços!", new AuthorDTO(maria));
-		Post post2 = new Post(null, sdf.parse("13/08/2025"), "Carro novo", "Estou feliz por ter comprado um carro novo!", new AuthorDTO(maria));
+		Post post1 = new Post(null, sdf.parse("21/08/2025"), "Partiu viagem", "Vou viajar para São Paulo. Abraços!", new AuthorDTO(maria));
+		Post post2 = new Post(null, sdf.parse("23/08/2025"), "Carro novo", "Estou feliz por ter comprado um carro novo!", new AuthorDTO(maria));
 		
-		CommentDTO c1 = new CommentDTO("Boa viagem!", sdf.parse("11/08/2025"), new AuthorDTO(romulo));
-		CommentDTO c2 = new CommentDTO("Aproveite sua viagem!", sdf.parse("12/08/2025"), new AuthorDTO(vinicius));
-		CommentDTO c3 = new CommentDTO("Parabens pela sua conquista!", sdf.parse("13/08/2025"), new AuthorDTO(romulo));
+		CommentDTO c1 = new CommentDTO("Boa viagem!", sdf.parse("21/08/2025"), new AuthorDTO(romulo));
+		CommentDTO c2 = new CommentDTO("Aproveite sua viagem!", sdf.parse("22/08/2025"), new AuthorDTO(vinicius));
+		CommentDTO c3 = new CommentDTO("Parabens pela sua conquista!", sdf.parse("23/08/2025"), new AuthorDTO(romulo));
 		
 		post1.getComments().addAll(Arrays.asList(c1, c2));
 		post2.getComments().addAll(Arrays.asList(c3));
