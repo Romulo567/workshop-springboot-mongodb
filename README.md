@@ -29,9 +29,13 @@ A ideia principal é explorar o uso de um banco de dados NoSQL (MongoDB), modela
 # Como executar
 
 1 - Instale o MongoDB localmente ou utilize um cluster na nuvem.
+
 2 -Clone o repositório: git clone https://github.com/Romulo567/workshop-mongo.git
+
 3 - Acesse o diretório do projeto: cd workshopmongo
+
 4 - Execute o projeto com Maven: ./mvnw spring-boot:run
+
 
 # Exemplos de endpoints
 
