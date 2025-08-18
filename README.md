@@ -16,7 +16,7 @@ A ideia principal é explorar o uso de um banco de dados NoSQL (MongoDB), modela
 
 ⚠️ Tratamento de exceções com respostas padronizadas para erros comuns.
 
-🛠 Tecnologias utilizadas
+# Tecnologias utilizadas
 
 ☕ Java 17+
 
